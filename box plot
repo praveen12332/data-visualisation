@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt 
+import numpy as np
+np.random.seed(15)
+
+dataSet = np.random.normal(100, 25, 20)
+
+print(dataSet)
+
+figure = plt.figure(figsize =(10, 8)) 
+plt.boxplot(dataSet)
+
+plt.show()
